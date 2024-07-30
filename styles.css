@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.logo {
+    height: 80px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+}
+
+.hero-text h2 {
+    font-size: 1.5em;
+}
+
+.email-bar-container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-bar-container h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.email-bar-container p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.email-form input[type="email"] {
+    padding: 15px;
+    font-size: 1em;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    width: 70%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.email-form button {
+    padding: 15px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-form button:hover {
+    background-color: #f40612;
+}
