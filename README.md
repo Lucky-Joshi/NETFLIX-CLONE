@@ -1,1 +1,1 @@
-Hello everyone! This is just an UI/UX clone of Netflix based on HTML and CSS
+Hello everyone! This is just an UI/UX clone of Netflix based on HTML,CSS and Javascript 
