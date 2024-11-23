@@ -59,3 +59,6 @@ Add More Pages:
 Expand the project by adding more pages and modifying the navigation buttons to link to new HTML files.
 Conclusion
 This Netflix UI/UX clone is a simple project that demonstrates fundamental web development skills, including HTML structuring, CSS styling, and basic JavaScript interactivity. It is a great starting point for beginners who want to learn how to replicate popular website designs.
+
+
+# Thankyou for reading.
