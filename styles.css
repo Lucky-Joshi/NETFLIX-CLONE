@@ -20,6 +20,7 @@ body {
 .nav-buttons {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .nav-btn {
@@ -31,8 +32,18 @@ body {
     cursor: pointer;
 }
 
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    width: 200px;
+    margin-right: 10px;
+}
+
 .hero-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 80vh;
